@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<body>
+    
+    <div class="container">
+        <img src="announcement.png" class="rounded float-start" alt="..." width="12%" height="12%">
+        <img src="announcement.png" class="rounded float-end" alt="..." width="12%" height="12%">
+        <h1 style="text-align: center; padding-top: 30px;">ANNOUNCEMENTS</h1>
+        <h4 style="text-align: center;"><i>Help Guide</i></h4>
+    </div>
+    
+    <hr>
+
+    <div class="container">
+    <p><strong>OVERVIEW:</strong><br><br>
+        The announcements feature is introduced to aid users stay informed with crucial updates, information and warnings related to the Group Directory application, ensuring you never miss a beat. 
+        This platform, only visible to the administrators, allows to create, edit, and remove announcements promptly, ensuring that our users are always up-to-date with the latest development activities- maintainence, patching, implementing changes, and more.
+    <br><br>
+    <strong>KEY FEATURES:</strong>
+    <ul>
+        <li><i>Create Announcements with ease: </i>Announcements with the defined type, visibility and active durations.</li>
+        <li><i>Flexibility to choose visibility Options:</i> At Global level or Specific page</li> 
+        <li><i>Comprehensive Overview: </i>All the announcements at-a-glance, both active and expired.</li>
+    
+    </ul>
+	<strong>WORKFLOW:</strong><br><br>
+
+    <!--
+    <img src="workflow.JPG" alt="Workflow">
+    <br><br>
+    <ul>
+        <li>To create an announcement, click <img src="create.JPG"> and fill in the mandatory details in the new pop-up window.<br>
+            <strong><label style="color: red;">*</label>Title:</strong> To add the title to the announcement.<br>
+            <strong><label style="color: red;">*</label>Short Content:</strong> To display about the announcement in brief<br>
+            <strong>Content:</strong> To let the users know about the announcement in detail. <i>However, this is not a mandatory field.</i><br>
+            <strong><label style="color: red;">*</label>Type:</strong> This specifies the type of announcements whether informative or of type warning.<br>
+            <strong><label style="color: red;">*</label>Start Date & End Date:</strong> This defines the duration of an announcement. </li>
+        <li>Once the announcement is created, in the tabular view, click on <img src="edit.JPG"> to edit the announcement. After making the desired updates, save the updates.</li> 
+        <li>To see how the announcement will be visible to the intended users, click on <img src="view.JPG"></li>
+        <li>The announcements that are no longer required or added mistakenly can be deleted by clicking on <img src="delete.JPG">. <br><i>Please note that once the announcements are deleted cannot be recovered.</i></li>
+    </ul>
+            -->
+
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card h-100"style="justify-content: center;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: blue; text-align: center;">Creating Announcements:</h5><hr>
+              <p class="card-text">To create an announcement, click <img src="create.JPG"> and fill in the mandatory details in the new pop-up window.<br>
+                <strong><label style="color: red;">*</label>Title:</strong> To add the title to the announcement.<br>
+                <strong><label style="color: red;">*</label>Short Content:</strong> To display about the announcement in brief<br>
+                <strong>Content:</strong> To let the users know about the announcement in detail. <i>However, this is not a mandatory field.</i><br>
+                <strong><label style="color: red;">*</label>Type:</strong> This specifies the type of announcements whether informative or of type warning.<br>
+                <strong><label style="color: red;">*</label>Start Date & End Date:</strong> This defines the duration of an announcement.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="justify-content: center;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: blue; text-align: center;">Updating Announcements:</h5><hr>
+              <p class="card-text">Once the announcement is created, in the tabular view, click on <img src="edit.JPG"> to edit the announcement. After making the desired updates, save the updates.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="justify-content: center;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: blue; text-align: center;">Viewing announcements:</h5><hr>
+              <p class="card-text">To see how the announcement will be visible to the intended users, click on <img src="view.JPG"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="justify-content: center;">
+            <div class="card-body">
+              <h5 class="card-title" style="color: blue; text-align: center;">Deleting Announcements:</h5><hr>
+              <p class="card-text">The announcements that are no longer required or added mistakenly can be deleted by clicking on <img src="delete.JPG">. <br><i>Please note that once the announcements are deleted cannot be recovered.</i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    
+    <b>VISIBILITY CONDITIONS:</b><br><br>
+        <ul>
+            <li>At present, the amount of active announcements banners are limited to three at a time.</li>
+            <li>Announcements will be visible based on the duration set on them and will be labelled as follows.<br>
+                <b>Active:</b> If the present date falls between the start date and the end date of the announcement.<br>
+                <b>Upcoming:</b> If the start date of the announcement is in near future.<br>
+                <b>Expired:</b> If the end date of the announcement has passed.</li>
+            <li> You can opt for either of the visibility options for the announcement banners to be displayed:<br>
+                <b>Global:</b> This will display the announcement within the whole application.<br>
+                <b>Single Page:</b> This will limit the announcement to a specific page.</li>
+        </ul><br>
+    <b>DATES & TIMEZONES</b><br><br>
+    Announcements are intially timestamped in your default timezone i.e., you will be able to set the start date and end date of the announcement as per your timezone.
+    However, you will be able to see the announcement's equivalent date and time adjusted in CET timezone just below the respective fields so as to ensure clarity, consistency, and fostering coordination accross different locations around the globe.
+<br> <br>
+    <b>ANNOUNCEMENT BANNERS</b><br><br>
+      Announcements will show up at the top of the page as per the visibility set on it whether Global or Single Page. Also, the colour of the banners
+      specifies the type of announcements- <span style="background-color: skyblue">&nbsp;Info&nbsp;</span> or <span style="background-color: yellow;"> &nbsp;Warning&nbsp; </span>   
+    <br><br>
+      <b>How to see Additional content?</b><br><br>
+    On the announcement banner displayed on the top of the page, click on <span style="color:blue;"><i>Read More...</i></span> to view the content in detail.<br><br>
+    <b>How to hide banners?</b><br><br>
+    To hide the announcement banner, click on <button type="button" class="btn-close" aria-label="Close"></button> on the top right corner of the banner. However, you can log in to new browsing session or via incognito mode (Chrome)/ inPrivate window (Edge), if you wish to recheck the announcement.
+    <br><br></p>
+
+</div>
+<hr>
+    </body>
+    <footer style="text-align: center; padding-bottom: 20px;"><i>Simplify communication and enhance collaboration with <span style="color: darkred;"><b>ANNOUNCEMENTS!</b></i></span></footer>
+</html>
